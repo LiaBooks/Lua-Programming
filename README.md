@@ -3,7 +3,7 @@ author:   Wikibooks
 
 email:    LiaScript@web.de.org
 
-version:  1.0.0
+version:  1.0.1
 
 language: en
 
@@ -14,6 +14,8 @@ narrator: US English Male
 comment:  This is a transcript of the open wikibook
           [Lua Programming](https://en.wikibooks.org/wiki/Lua_Programming) to
           LiaScript.
+
+logo:     https://www.lua.org/images/luaa.gif
 
 import:   https://raw.githubusercontent.com/liaTemplates/Lua/master/README.md
 -->
