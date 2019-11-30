@@ -22,7 +22,11 @@ import:   https://raw.githubusercontent.com/liaTemplates/Lua/master/README.md
 # Lua-Programming
 
 A port of the open wikibook [Lua
-Programming](https://en.wikibooks.org/wiki/Lua_Programming) to LiaScript
+Programming](https://en.wikibooks.org/wiki/Lua_Programming) to LiaScript.
+
+See the interactive version at:
+
+https://LiaScript.github.io/course/?https://raw.githubusercontent.com/liaBooks/Lua-Programming/master/README.md
 
 ## Introduction
 
