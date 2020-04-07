@@ -3,7 +3,7 @@ author:   Wikibooks
 
 email:    LiaScript@web.de.org
 
-version:  1.0.1
+version:  1.0.2
 
 language: en
 
@@ -248,29 +248,24 @@ introduce information that is not available elsewhere in the book.
 
 1. What does "Lua" mean in Portuguese?
 
-   [[Lua]]
-   <script>
-    // @input will be replace by the user input
-    let input_string = "@input";
-    "lua" == input_string.trim().toLowerCase();
-   </script>
+       [[moon]]
 
 2. Which of these is a long comment of level 0?
 
-   [( )] `--Comment`
-   [( )] `[[Comment]]`
-   [(X)] `--[[Comment]]`
-   [( )] `--[=[Comment]=]`
-   [( )] `[=[Comment]=]`
+       [( )] `--Comment`
+       [( )] `[[Comment]]`
+       [(X)] `--[[Comment]]`
+       [( )] `--[=[Comment]=]`
+       [( )] `[=[Comment]=]`
 
 3. What is extended Backus–Naur form?
 
-   [[X]] A language
-   [[ ]] A programming language
-   [[ ]] A natural (or ordinary) language
-   [[X]] A notation
-   [[X]] A metalanguage
-   [[ ]] A markup language
+       [[X]] A language
+       [[ ]] A programming language
+       [[ ]] A natural (or ordinary) language
+       [[X]] A notation
+       [[X]] A metalanguage
+       [[ ]] A markup language
 
 
 ## Expressions
@@ -402,9 +397,9 @@ considered as true, and if you do the logic reasoning, you'll realize that the
 definitions presented in this paragraph correspond with those in the table,
 although those in the table will not always return a boolean value.
 
-The relational operators introduced in the next chapter (`<`, `>`, `<=`, `>=`, `~=`, `==`)
-do not necessarily take boolean values as operands, but will always give a
-boolean value as a result.
+The relational operators introduced in the next chapter (`<`, `>`, `<=`, `>=`,
+`~=`, `==`) do not necessarily take boolean values as operands, but will always
+give a boolean value as a result.
 
 
 #### Strings
@@ -431,7 +426,7 @@ escaped.
 | `\\`            | A backslash                                                                               |
 | `\t`            | A horizontal tab                                                                          |
 | `\###`          | ### must be a number from 0 to 255. The result will be the corresponding ASCII character. |
-|                 |                                                                                           |
+
 
 Escape sequences are used when putting the character directly in the string
 would cause a problem. For example, if you have a string of text that is
@@ -679,11 +674,11 @@ introduce information that is not available elsewhere in the book.
        [( )] `false`
        [(X)] `0`
        [( )] `8`
-   ******************************************
+       ****************************************
 
-   `or` returns the first argument, since it is neither `false` nor `nil`.
+       `or` returns the first argument, since it is neither `false` nor `nil`.
 
-   ******************************************
+       ****************************************
 
 3. Which strings are valid?
 
@@ -693,35 +688,35 @@ introduce information that is not available elsewhere in the book.
        [[X]] `'test"s test'`
        [[X]] `"test\'s test"`
        [[ ]] `'test's test'`
-   ******************************************
+       ******************************************
 
-   `"test's test"`
-   --> No escaping for the single quote required, since the string is limited by
-   double quotes.
+       `"test's test"`
+       --> No escaping for the single quote required, since the string is limited by
+       double quotes.
 
-   `'test\'s test'`
-   -->	Escaping is necessary here.
+       `'test\'s test'`
+       -->	Escaping is necessary here.
 
-   `'test"s test'`
-   -->	No escaping for the double quote required, since the string is limited by
-   single quotes.
+       `'test"s test'`
+       -->	No escaping for the double quote required, since the string is limited by
+       single quotes.
 
-   `"test\'s test"`
-   -->	Escaping is optional here.
+       `"test\'s test"`
+       -->	Escaping is optional here.
 
-   ******************************************
+       ******************************************
 
 4. Which expressions give the string `"1223"`?
 
-   [[ ]] `"122" + 3`
-   [[X]] `"122" .. 3`
-   [[ ]] `"12" + "23"`
-   [[X]] `12 .. 23`
+       [[ ]] `"122" + 3`
+       [[X]] `"122" .. 3`
+       [[ ]] `"12" + "23"`
+       [[X]] `12 .. 23`
 
 5. True or false? `not 5^3 == 5`
 
-   [( )] `true`
-   [(X)] `false`
+       [( )] `true`
+       [(X)] `false`
 
 
 ## Statements
