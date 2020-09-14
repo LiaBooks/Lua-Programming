@@ -20,11 +20,11 @@ logo:     https://www.lua.org/images/luaa.gif
 import:   https://raw.githubusercontent.com/liaTemplates/Lua/master/README.md
 -->
 
+[![LiaScript](https://raw.githubusercontent.com/LiaScript/LiaScript/master/badges/course.svg)](https://LiaScript.github.io/course/?https://github.com/LiaBooks/Lua-Programming)
 
 # Lua-Programming
 
-A port of the open wikibook [Lua
-Programming](https://en.wikibooks.org/wiki/Lua_Programming) to LiaScript.
+A port of the open wikibook [Lua Programming](https://en.wikibooks.org/wiki/Lua_Programming) to LiaScript.
 
 See the interactive version at:
 
